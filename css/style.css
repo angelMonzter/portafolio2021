@@ -1,0 +1,224 @@
+/*estilos generales*/
+@import url("https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap");
+.sin_padding, .cell {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.sin_margin, .grid-x {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  max-width: none;
+  width: 100%;
+}
+
+/*estilos generales*/
+@font-face {
+  font-family: century;
+  src: url("../fonts/CenturyGothic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: centuryB;
+  src: url("../fonts/gothicb.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+h1, h2, h3, h4, h5, p, a, div, span {
+  font-family: century;
+}
+
+/*header*/
+header {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  z-index: 2;
+  background-color: rgba(7, 96, 76, 0.9);
+  background-blend-mode: hard-light !important;
+}
+header #header {
+  width: 80%;
+  margin: 0 auto !important;
+  padding: 15px 0px;
+}
+header #header a {
+  color: white;
+  text-transform: uppercase;
+  margin-top: 7px;
+}
+
+/*header*/
+#banner {
+  background-image: url(../img/PC.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 920px;
+}
+#banner img {
+  width: 400px !important;
+  max-width: none;
+  top: 650px;
+  position: relative;
+}
+
+.mi_descripcion {
+  background-color: black;
+  height: 500px;
+}
+.mi_descripcion .texto_descripcion {
+  top: 160px;
+  position: relative;
+  width: 50%;
+  margin: 0 auto 0 0;
+  text-align: center;
+}
+.mi_descripcion h2, .mi_descripcion p {
+  color: white;
+}
+
+.trabajo {
+  height: 700px;
+}
+.trabajo .large-6 {
+  height: 700px;
+}
+.trabajo .trabajo_info {
+  width: 60%;
+  margin: 350px auto 0;
+  position: relative;
+}
+.trabajo .trabajo_info h2 {
+  color: #07604C;
+}
+.trabajo .trabajo_info .trabajo_individual a {
+  text-transform: uppercase;
+  color: #808080;
+}
+.trabajo .trabajo_info .trabajo_individual:first-child {
+  position: absolute;
+  top: -150px;
+}
+.trabajo .trabajo_info .trabajo_individual:last-child {
+  position: absolute;
+  top: 100px;
+}
+
+.cursos {
+  height: 1340px;
+  background-image: url(../img/fondo_cursos.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cursos .contenido_cursos {
+  margin-top: 300px;
+}
+.cursos .contenido_cursos h2 {
+  color: #303030;
+}
+.cursos .grupo_tarjetas_curso {
+  margin-top: 150px;
+}
+.cursos .grupo_tarjetas_curso .tarjeta_curso {
+  padding-bottom: 20px;
+}
+.cursos .grupo_tarjetas_curso .tarjeta_curso hr {
+  width: 68%;
+  padding-bottom: 40px;
+  margin: 0 100px 0 auto;
+}
+.cursos .grupo_tarjetas_curso .tarjeta_curso h4 {
+  color: #303030;
+}
+.cursos .grupo_tarjetas_curso .tarjeta_curso p {
+  color: #808080;
+}
+.cursos .grupo_tarjetas_curso .large-6:last-child .tarjeta_curso hr {
+  margin: 0 auto 0 15px;
+}
+.cursos .grupo_tarjetas_curso .contenido_tarjeta_curso {
+  border-bottom: 1px solid grey;
+}
+
+.contacto {
+  height: 1340px;
+  background-image: url(../img/fondo_contacto.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contacto .contenido_contacto {
+  margin-top: 500px;
+}
+.contacto .contenido_contacto .titulo_contacto {
+  margin-bottom: 80px;
+}
+.contacto .contenido_contacto .titulo_contacto h2 {
+  color: white;
+}
+.contacto .contenido_contacto .info_contacto ul li:nth-child(1) {
+  list-style-image: url(../img/github.svg);
+}
+.contacto .contenido_contacto .info_contacto ul li:nth-child(2) {
+  list-style-image: url(../img/codepen.svg);
+}
+.contacto .contenido_contacto .info_contacto ul li:nth-child(3) {
+  list-style-image: url(../img/facebook.svg);
+}
+.contacto .contenido_contacto .info_contacto ul li {
+  padding-bottom: 10px;
+}
+.contacto .contenido_contacto .info_contacto ul li a {
+  color: white;
+  position: relative;
+  top: -13px;
+  padding-left: 10px;
+}
+
+footer .large-12 {
+  padding-bottom: 80px;
+}
+
+.proyectos {
+  height: auto;
+  background-image: url(../img/fondo_cursos.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.proyectos .contenido_proyectos {
+  margin-top: 300px;
+  margin-bottom: 100px;
+}
+.proyectos .contenido_proyectos h2 {
+  color: #303030;
+}
+
+.info_proyectos ul {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.info_proyectos ul li {
+  list-style-image: url(../img/flecha.png);
+}
+.info_proyectos ul li p {
+  position: relative;
+  font-family: century;
+  top: -3px;
+}
+
+.iconos_proyectos ul {
+  list-style: none;
+}
+.iconos_proyectos ul li {
+  display: inline-block;
+  padding-right: 30px;
+}
+.iconos_proyectos a {
+  padding-right: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

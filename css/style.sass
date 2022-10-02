@@ -1,0 +1,127 @@
+@import estilos_generales.sass
+@import variables.sass
+
+h1, h2, h3, h4, h5, p, a, div, span
+	font-family: $fuente
+
+/*header*/
+header
+	position: fixed
+	width: 100%
+	height: 80px
+	z-index: 2
+	background-color: rgba(7, 96, 76, .9)
+	background-blend-mode: hard-light !important
+	#header
+		width: 80%
+		margin: 0 auto!important
+		padding: 15px 0px
+		a
+			color: white
+			text-transform: uppercase
+			margin-top: 7px
+/*header*/
+
+#banner
+	background-image: url(../img/PC.png)
+	background-size: cover
+	background-repeat: no-repeat
+	background-position: center
+	height: 920px
+	img
+		width: 400px!important
+		max-width: none
+		top: 650px
+		position: relative
+.mi_descripcion
+	background-color: black
+	height: 500px
+	.texto_descripcion
+		top: 160px
+		position: relative
+		width: 50%
+		margin: 0 auto 0 0
+		text-align: center
+	h2, p
+		color: white
+.trabajo
+	height: 700px
+	.large-6
+		height: 700px
+	.trabajo_info
+		width: 60%
+		margin: 350px auto 0
+		position: relative
+		h2
+			color: #07604C
+		.trabajo_individual
+			//display: none
+			a
+				text-transform: uppercase
+				color: #808080
+		.trabajo_individual:first-child
+			position: absolute
+			top: -150px
+		.trabajo_individual:last-child
+			position: absolute
+			top: 100px
+.cursos
+	height: 1340px
+	background-image: url(../img/fondo_cursos.png)
+	background-size: cover
+	background-repeat: no-repeat
+	background-position: center
+	.contenido_cursos
+		margin-top: 300px
+		h2
+			color: #303030
+	.grupo_tarjetas_curso
+		margin-top: 150px
+		.tarjeta_curso
+			padding-bottom: 20px
+			hr
+				width: 68%
+				padding-bottom: 40px
+				margin: 0 100px 0 auto
+			h4
+				color: #303030
+			p
+				color: #808080
+		.large-6:last-child
+			.tarjeta_curso
+				hr
+					margin: 0 auto 0 15px
+		.contenido_tarjeta_curso
+			border-bottom: 1px solid grey
+.contacto
+	height: 1340px
+	background-image: url(../img/fondo_contacto.png)
+	background-size: cover
+	background-repeat: no-repeat
+	background-position: center
+	.contenido_contacto
+		margin-top: 500px
+		.titulo_contacto
+			margin-bottom: 80px
+			h2
+				color: white
+		.info_contacto
+			ul
+				li:nth-child(1)
+					list-style-image: url(../img/github.svg)
+				li:nth-child(2)
+					list-style-image: url(../img/codepen.svg)
+				li:nth-child(3)
+					list-style-image: url(../img/facebook.svg)
+				li
+					padding-bottom: 10px
+					a
+						color: white
+						position: relative
+						top: -13px
+						padding-left: 10px
+footer
+	.large-12
+		padding-bottom: 80px
+
+@import proyectos.sass

@@ -1,0 +1,46 @@
+{
+    "proyectos": [
+      {
+        "id": 1,
+        "nombre": "Vazda - 2018",
+        "imagen": "vazda.png",
+        "lenguajes": "HTML, CSS, JS, PHP, MYSQL",
+        "descripcion": "Página web informativa, Encontrar formalidad para los clientes que en este caso son empresas nacionales, tener presencia digital los ayudaría a conseguir una mejor imagen y confianza, Formulario de pedidos, estos se guardan en una base de datos y se muestran en un administrador de datos privado al cual se accede por medio de un login, Diseño responsivo"
+      },
+      {
+        "id": 2,
+        "nombre": "DCM albarran – 2018 ",
+        "imagen": "dcm-albarran.png",
+        "lenguajes": "HTML, CSS, JS, PHP, MYSQL",
+        "descripcion": "Página web informativa, Encontrar formalidad y una cara para sus consumidores, ayudar a jóvenes con su primer trabajo, Formulario de registro para vacantes y parte administrativa de la misma, DISEÑO RESPONSIVO "
+      },
+      {
+        "id": 3,
+        "nombre": "Florería antohan web – 2017 ",
+        "imagen": "floreria_antohan.png",
+        "lenguajes": "HTML, CSS, JS, PHP ",
+        "descripcion": "Página web informativa, Extender su mercado en regiones fuera de Toluca contando con un catálogo y disponibilidad sobre otras florerías, DISEÑO RESPONSIVO"
+      },
+      {
+        "id": 4,
+        "nombre": "Florería antohan sistema – 2017 ",
+        "imagen": "Florería_antohan_sistema.png",
+        "lenguajes": "HTML, CSS, JS, PHP, MYSQL",
+        "descripcion": "Punto de venta, Resolver la problemática de un sistema de ventas con geolocalización para poder realizar pedidos a domicilio, así como en tienda mas un registro de empleados, Login, formulario de venta y registro de ventas más control de empleados simple, Diseño responsivo"
+      },
+      {
+        "id": 5,
+        "nombre": "Portfolio  - 2018 y 2019",
+        "imagen": "portfolio.png",
+        "lenguajes": "HTML, CSS, JS, PHP",
+        "descripcion": "Pagina web personal, Diseño responsivo"
+      },
+      {
+        "id": 6,
+        "nombre": "Sistema de Tickets Tecnokratix (empresa de software) – 2018",
+        "imagen": "sistema-tickets.png",
+        "lenguajes": "HTML, CSS, JS, PHP, MYSQL",
+        "descripcion": "Sistema web de resolución de tickets cuenta con login tanto para usuarios como para administradores, formulario de levantamiento de tickets y de resolución de los mismos, Diseño responsivo"
+      }
+    ]
+}
